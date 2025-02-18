@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "montecarlo_eegd"
+version = "0.1.0"
+description = "A package for Monte Carlo analyses"
+authors = [
+    { name = "Danielle", email = "danielle@danielle.com" }
+]
+dependencies = [
+    "numpy"
+]
